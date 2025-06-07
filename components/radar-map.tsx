@@ -108,7 +108,7 @@ export function RadarMap() {
     lng: 32.8597,
   })
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null)
-  const [formattedTime, setFormattedTime] = useState<string>('')
+  const [formattedTime, setFormattedTime] = useState<string | null>(null)
 
   const normalizeTime = (timestamp: number) => {
     const date = new Date(timestamp * 1000)
@@ -661,7 +661,7 @@ export function RadarMap() {
                     : 'text-yellow-600'
                 }`}
               >
-                {typeof radarData?.meta.cache_at === 'number' && <span>{formattedTime}</span>}
+                {formattedTime && <span>{formattedTime || '0 saniye'}</span>}
               </p>
               <p className="text-xs text-gray-500">
                 {typeof radarData?.meta.cache_at === 'number'
