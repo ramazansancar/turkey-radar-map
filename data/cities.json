@@ -1,0 +1,976 @@
+{
+  "cities": [
+    {
+      "name": "ADANA",
+      "code": "01",
+      "lat": 37.0,
+      "lng": 35.3213333,
+      "bounds": {
+        "north": 38.2,
+        "south": 35.7,
+        "east": 36.2,
+        "west": 34.8
+      }
+    },
+    {
+      "name": "ADIYAMAN",
+      "code": "02",
+      "lat": 37.7641667,
+      "lng": 38.2761667,
+      "bounds": {
+        "north": 38.5,
+        "south": 37.4,
+        "east": 39.1,
+        "west": 37.4
+      }
+    },
+    {
+      "name": "AFYONKARAHİSAR",
+      "code": "03",
+      "lat": 38.76376,
+      "lng": 30.54034,
+      "bounds": {
+        "north": 39.3,
+        "south": 38.0,
+        "east": 31.2,
+        "west": 29.5
+      }
+    },
+    {
+      "name": "AĞRI",
+      "code": "04",
+      "lat": 39.7216667,
+      "lng": 43.0566667,
+      "bounds": {
+        "north": 40.2,
+        "south": 39.0,
+        "east": 44.3,
+        "west": 42.4
+      }
+    },
+    {
+      "name": "AKSARAY",
+      "code": "68",
+      "lat": 38.36869,
+      "lng": 34.03698,
+      "bounds": {
+        "north": 39.2,
+        "south": 38.2,
+        "east": 34.8,
+        "west": 33.5
+      }
+    },
+    {
+      "name": "AMASYA",
+      "code": "05",
+      "lat": 40.65,
+      "lng": 35.8333333,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.0,
+        "east": 36.2,
+        "west": 35.0
+      }
+    },
+    {
+      "name": "ANKARA",
+      "code": "06",
+      "lat": 39.92077,
+      "lng": 32.85411,
+      "bounds": {
+        "north": 40.6,
+        "south": 39.3,
+        "east": 33.2,
+        "west": 31.6
+      }
+    },
+    {
+      "name": "ANTALYA",
+      "code": "07",
+      "lat": 36.88414,
+      "lng": 30.70563,
+      "bounds": {
+        "north": 37.3,
+        "south": 35.8,
+        "east": 32.3,
+        "west": 29.3
+      }
+    },
+    {
+      "name": "ARDAHAN",
+      "code": "75",
+      "lat": 41.110481,
+      "lng": 42.702171,
+      "bounds": {
+        "north": 41.5,
+        "south": 40.7,
+        "east": 43.2,
+        "west": 41.8
+      }
+    },
+    {
+      "name": "ARTVİN",
+      "code": "08",
+      "lat": 41.1833333,
+      "lng": 41.8166667,
+      "bounds": {
+        "north": 41.9,
+        "south": 40.8,
+        "east": 42.8,
+        "west": 40.8
+      }
+    },
+    {
+      "name": "AYDIN",
+      "code": "09",
+      "lat": 37.8444,
+      "lng": 27.8458,
+      "bounds": {
+        "north": 38.2,
+        "south": 37.4,
+        "east": 28.8,
+        "west": 27.0
+      }
+    },
+    {
+      "name": "BALIKESİR",
+      "code": "10",
+      "lat": 39.648369,
+      "lng": 27.88261,
+      "bounds": {
+        "north": 40.2,
+        "south": 39.0,
+        "east": 28.8,
+        "west": 26.5
+      }
+    },
+    {
+      "name": "BARTIN",
+      "code": "74",
+      "lat": 41.6344444,
+      "lng": 32.3375,
+      "bounds": {
+        "north": 41.8,
+        "south": 41.3,
+        "east": 32.8,
+        "west": 32.0
+      }
+    },
+    {
+      "name": "BATMAN",
+      "code": "72",
+      "lat": 37.881168,
+      "lng": 41.13509,
+      "bounds": {
+        "north": 38.6,
+        "south": 37.7,
+        "east": 41.8,
+        "west": 40.7
+      }
+    },
+    {
+      "name": "BAYBURT",
+      "code": "69",
+      "lat": 40.255169,
+      "lng": 40.22488,
+      "bounds": {
+        "north": 40.7,
+        "south": 40.1,
+        "east": 40.4,
+        "west": 39.8
+      }
+    },
+    {
+      "name": "BİLECİK",
+      "code": "11",
+      "lat": 40.150131,
+      "lng": 29.983061,
+      "bounds": {
+        "north": 40.3,
+        "south": 39.9,
+        "east": 30.3,
+        "west": 29.8
+      }
+    },
+    {
+      "name": "BİNGÖL",
+      "code": "12",
+      "lat": 38.885349,
+      "lng": 40.498291,
+      "bounds": {
+        "north": 39.5,
+        "south": 38.6,
+        "east": 41.3,
+        "west": 40.3
+      }
+    },
+    {
+      "name": "BİTLİS",
+      "code": "13",
+      "lat": 38.4,
+      "lng": 42.1166667,
+      "bounds": {
+        "north": 38.8,
+        "south": 38.0,
+        "east": 42.8,
+        "west": 41.8
+      }
+    },
+    {
+      "name": "BOLU",
+      "code": "14",
+      "lat": 40.739479,
+      "lng": 31.611561,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.4,
+        "east": 32.1,
+        "west": 30.5
+      }
+    },
+    {
+      "name": "BURDUR",
+      "code": "15",
+      "lat": 37.726909,
+      "lng": 30.288876,
+      "bounds": {
+        "north": 37.9,
+        "south": 36.8,
+        "east": 30.8,
+        "west": 29.4
+      }
+    },
+    {
+      "name": "BURSA",
+      "code": "16",
+      "lat": 40.18257,
+      "lng": 29.06687,
+      "bounds": {
+        "north": 40.4,
+        "south": 39.7,
+        "east": 29.9,
+        "west": 28.9
+      }
+    },
+    {
+      "name": "ÇANAKKALE",
+      "code": "17",
+      "lat": 40.155312,
+      "lng": 26.41416,
+      "bounds": {
+        "north": 40.6,
+        "south": 39.4,
+        "east": 27.4,
+        "west": 25.7
+      }
+    },
+    {
+      "name": "ÇANKIRI",
+      "code": "18",
+      "lat": 40.6,
+      "lng": 33.616667,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.4,
+        "east": 33.8,
+        "west": 32.4
+      }
+    },
+    {
+      "name": "ÇORUM",
+      "code": "19",
+      "lat": 40.5505556,
+      "lng": 34.9555556,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.2,
+        "east": 35.8,
+        "west": 34.0
+      }
+    },
+    {
+      "name": "DENİZLİ",
+      "code": "20",
+      "lat": 37.77652,
+      "lng": 29.08639,
+      "bounds": {
+        "north": 38.1,
+        "south": 37.4,
+        "east": 29.9,
+        "west": 28.5
+      }
+    },
+    {
+      "name": "DİYARBAKIR",
+      "code": "21",
+      "lat": 37.91441,
+      "lng": 40.230629,
+      "bounds": {
+        "north": 38.4,
+        "south": 37.4,
+        "east": 41.0,
+        "west": 39.8
+      }
+    },
+    {
+      "name": "DÜZCE",
+      "code": "81",
+      "lat": 40.843849,
+      "lng": 31.15654,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.7,
+        "east": 31.3,
+        "west": 30.8
+      }
+    },
+    {
+      "name": "EDİRNE",
+      "code": "22",
+      "lat": 41.666667,
+      "lng": 26.566667,
+      "bounds": {
+        "north": 42.0,
+        "south": 41.0,
+        "east": 27.2,
+        "west": 26.0
+      }
+    },
+    {
+      "name": "ELAZIĞ",
+      "code": "23",
+      "lat": 38.680969,
+      "lng": 39.226398,
+      "bounds": {
+        "north": 39.0,
+        "south": 38.3,
+        "east": 40.1,
+        "west": 38.8
+      }
+    },
+    {
+      "name": "ERZİNCAN",
+      "code": "24",
+      "lat": 39.75,
+      "lng": 39.5,
+      "bounds": {
+        "north": 40.0,
+        "south": 39.4,
+        "east": 40.0,
+        "west": 38.8
+      }
+    },
+    {
+      "name": "ERZURUM",
+      "code": "25",
+      "lat": 39.9043189,
+      "lng": 41.2678853,
+      "bounds": {
+        "north": 40.4,
+        "south": 39.6,
+        "east": 42.9,
+        "west": 40.4
+      }
+    },
+    {
+      "name": "ESKİŞEHİR",
+      "code": "26",
+      "lat": 39.784302,
+      "lng": 30.51922,
+      "bounds": {
+        "north": 40.0,
+        "south": 39.2,
+        "east": 31.8,
+        "west": 30.0
+      }
+    },
+    {
+      "name": "GAZİANTEP",
+      "code": "27",
+      "lat": 37.06622,
+      "lng": 37.38332,
+      "bounds": {
+        "north": 37.4,
+        "south": 36.6,
+        "east": 37.9,
+        "west": 36.8
+      }
+    },
+    {
+      "name": "GİRESUN",
+      "code": "28",
+      "lat": 40.912811,
+      "lng": 38.38953,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.1,
+        "east": 39.1,
+        "west": 37.8
+      }
+    },
+    {
+      "name": "GÜMÜŞHANE",
+      "code": "29",
+      "lat": 40.4602778,
+      "lng": 39.4813889,
+      "bounds": {
+        "north": 40.7,
+        "south": 40.0,
+        "east": 39.9,
+        "west": 39.0
+      }
+    },
+    {
+      "name": "HAKKARİ",
+      "code": "30",
+      "lat": 37.5833333,
+      "lng": 43.7333333,
+      "bounds": {
+        "north": 37.8,
+        "south": 37.0,
+        "east": 44.3,
+        "west": 43.4
+      }
+    },
+    {
+      "name": "HATAY",
+      "code": "31",
+      "lat": 36.4018488,
+      "lng": 36.3498097,
+      "bounds": {
+        "north": 36.7,
+        "south": 35.8,
+        "east": 36.7,
+        "west": 35.8
+      }
+    },
+    {
+      "name": "IĞDIR",
+      "code": "76",
+      "lat": 39.9166667,
+      "lng": 44.0333333,
+      "bounds": {
+        "north": 40.1,
+        "south": 39.8,
+        "east": 44.1,
+        "west": 43.8
+      }
+    },
+    {
+      "name": "ISPARTA",
+      "code": "32",
+      "lat": 37.7666667,
+      "lng": 30.55,
+      "bounds": {
+        "north": 38.2,
+        "south": 37.4,
+        "east": 31.2,
+        "west": 30.1
+      }
+    },
+    {
+      "name": "İSTANBUL",
+      "code": "34",
+      "lat": 41.00527,
+      "lng": 28.97696,
+      "bounds": {
+        "north": 41.3,
+        "south": 40.8,
+        "east": 29.8,
+        "west": 27.9
+      }
+    },
+    {
+      "name": "İZMİR",
+      "code": "35",
+      "lat": 38.41885,
+      "lng": 27.12872,
+      "bounds": {
+        "north": 38.9,
+        "south": 38.0,
+        "east": 27.9,
+        "west": 26.2
+      }
+    },
+    {
+      "name": "KAHRAMANMARAŞ",
+      "code": "46",
+      "lat": 37.5833333,
+      "lng": 36.9333333,
+      "bounds": {
+        "north": 38.1,
+        "south": 37.1,
+        "east": 37.2,
+        "west": 36.2
+      }
+    },
+    {
+      "name": "KARABÜK",
+      "code": "78",
+      "lat": 41.2,
+      "lng": 32.6333333,
+      "bounds": {
+        "north": 41.4,
+        "south": 41.0,
+        "east": 32.8,
+        "west": 32.4
+      }
+    },
+    {
+      "name": "KARAMAN",
+      "code": "70",
+      "lat": 37.17593,
+      "lng": 33.228748,
+      "bounds": {
+        "north": 37.4,
+        "south": 36.8,
+        "east": 33.6,
+        "west": 32.7
+      }
+    },
+    {
+      "name": "KARS",
+      "code": "36",
+      "lat": 40.59267,
+      "lng": 43.077831,
+      "bounds": {
+        "north": 40.8,
+        "south": 40.0,
+        "east": 43.5,
+        "west": 42.1
+      }
+    },
+    {
+      "name": "KASTAMONU",
+      "code": "37",
+      "lat": 41.38871,
+      "lng": 33.78273,
+      "bounds": {
+        "north": 42.0,
+        "south": 41.1,
+        "east": 34.6,
+        "west": 33.1
+      }
+    },
+    {
+      "name": "KAYSERİ",
+      "code": "38",
+      "lat": 38.7333333,
+      "lng": 35.4833333,
+      "bounds": {
+        "north": 39.2,
+        "south": 38.4,
+        "east": 36.9,
+        "west": 34.8
+      }
+    },
+    {
+      "name": "KIRIKKALE",
+      "code": "71",
+      "lat": 39.846821,
+      "lng": 33.515251,
+      "bounds": {
+        "north": 40.1,
+        "south": 39.7,
+        "east": 34.0,
+        "west": 33.3
+      }
+    },
+    {
+      "name": "KIRKLARELİ",
+      "code": "39",
+      "lat": 41.7333333,
+      "lng": 27.2166667,
+      "bounds": {
+        "north": 42.0,
+        "south": 41.4,
+        "east": 28.0,
+        "west": 27.0
+      }
+    },
+    {
+      "name": "KIRŞEHİR",
+      "code": "40",
+      "lat": 39.15,
+      "lng": 34.1666667,
+      "bounds": {
+        "north": 39.5,
+        "south": 38.9,
+        "east": 34.6,
+        "west": 33.7
+      }
+    },
+    {
+      "name": "KİLİS",
+      "code": "79",
+      "lat": 36.718399,
+      "lng": 37.12122,
+      "bounds": {
+        "north": 36.8,
+        "south": 36.6,
+        "east": 37.2,
+        "west": 36.9
+      }
+    },
+    {
+      "name": "KOCAELİ",
+      "code": "41",
+      "lat": 40.8,
+      "lng": 29.43,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.6,
+        "east": 30.3,
+        "west": 29.4
+      }
+    },
+    {
+      "name": "KONYA",
+      "code": "42",
+      "lat": 37.8666667,
+      "lng": 32.4833333,
+      "bounds": {
+        "north": 38.7,
+        "south": 36.6,
+        "east": 34.2,
+        "west": 31.5
+      }
+    },
+    {
+      "name": "KÜTAHYA",
+      "code": "43",
+      "lat": 39.4166667,
+      "lng": 29.9833333,
+      "bounds": {
+        "north": 39.8,
+        "south": 38.7,
+        "east": 30.2,
+        "west": 28.6
+      }
+    },
+    {
+      "name": "MALATYA",
+      "code": "44",
+      "lat": 38.35519,
+      "lng": 38.30946,
+      "bounds": {
+        "north": 38.8,
+        "south": 37.8,
+        "east": 38.8,
+        "west": 37.4
+      }
+    },
+    {
+      "name": "MANİSA",
+      "code": "45",
+      "lat": 38.619099,
+      "lng": 27.428921,
+      "bounds": {
+        "north": 39.1,
+        "south": 38.4,
+        "east": 28.9,
+        "west": 27.0
+      }
+    },
+    {
+      "name": "MARDİN",
+      "code": "47",
+      "lat": 37.3122361,
+      "lng": 40.735112,
+      "bounds": {
+        "north": 37.8,
+        "south": 37.0,
+        "east": 41.0,
+        "west": 40.1
+      }
+    },
+    {
+      "name": "MERSİN",
+      "code": "33",
+      "lat": 36.8,
+      "lng": 34.6333333,
+      "bounds": {
+        "north": 37.2,
+        "south": 35.7,
+        "east": 34.8,
+        "west": 32.7
+      }
+    },
+    {
+      "name": "MUĞLA",
+      "code": "48",
+      "lat": 37.2152778,
+      "lng": 28.3636111,
+      "bounds": {
+        "north": 37.9,
+        "south": 36.5,
+        "east": 29.1,
+        "west": 26.8
+      }
+    },
+    {
+      "name": "MUŞ",
+      "code": "49",
+      "lat": 38.7432926,
+      "lng": 41.5064823,
+      "bounds": {
+        "north": 39.2,
+        "south": 38.6,
+        "east": 42.0,
+        "west": 41.0
+      }
+    },
+    {
+      "name": "NEVŞEHİR",
+      "code": "50",
+      "lat": 38.62442,
+      "lng": 34.723969,
+      "bounds": {
+        "north": 38.9,
+        "south": 38.4,
+        "east": 35.0,
+        "west": 34.2
+      }
+    },
+    {
+      "name": "NİĞDE",
+      "code": "51",
+      "lat": 37.9666667,
+      "lng": 34.6833333,
+      "bounds": {
+        "north": 38.2,
+        "south": 37.6,
+        "east": 35.2,
+        "west": 34.2
+      }
+    },
+    {
+      "name": "ORDU",
+      "code": "52",
+      "lat": 40.9833333,
+      "lng": 37.8833333,
+      "bounds": {
+        "north": 41.0,
+        "south": 40.4,
+        "east": 38.1,
+        "west": 36.8
+      }
+    },
+    {
+      "name": "OSMANİYE",
+      "code": "80",
+      "lat": 37.06805,
+      "lng": 36.261589,
+      "bounds": {
+        "north": 37.4,
+        "south": 36.9,
+        "east": 36.5,
+        "west": 35.8
+      }
+    },
+    {
+      "name": "RİZE",
+      "code": "53",
+      "lat": 41.02005,
+      "lng": 40.523449,
+      "bounds": {
+        "north": 41.1,
+        "south": 40.4,
+        "east": 41.4,
+        "west": 40.0
+      }
+    },
+    {
+      "name": "SAKARYA",
+      "code": "54",
+      "lat": 40.7568793,
+      "lng": 30.378138,
+      "bounds": {
+        "north": 40.9,
+        "south": 40.6,
+        "east": 30.8,
+        "west": 29.8
+      }
+    },
+    {
+      "name": "SAMSUN",
+      "code": "55",
+      "lat": 41.292782,
+      "lng": 36.33128,
+      "bounds": {
+        "north": 41.8,
+        "south": 40.8,
+        "east": 37.4,
+        "west": 35.2
+      }
+    },
+    {
+      "name": "SİİRT",
+      "code": "56",
+      "lat": 37.94429,
+      "lng": 41.93288,
+      "bounds": {
+        "north": 38.2,
+        "south": 37.7,
+        "east": 42.5,
+        "west": 41.7
+      }
+    },
+    {
+      "name": "SİNOP",
+      "code": "57",
+      "lat": 42.0264222,
+      "lng": 35.1550745,
+      "bounds": {
+        "north": 42.1,
+        "south": 41.8,
+        "east": 35.2,
+        "west": 34.2
+      }
+    },
+    {
+      "name": "SİVAS",
+      "code": "58",
+      "lat": 39.747662,
+      "lng": 37.017879,
+      "bounds": {
+        "north": 40.2,
+        "south": 39.2,
+        "east": 38.2,
+        "west": 35.8
+      }
+    },
+    {
+      "name": "ŞANLIURFA",
+      "code": "63",
+      "lat": 37.15,
+      "lng": 38.8,
+      "bounds": {
+        "north": 37.8,
+        "south": 36.8,
+        "east": 39.8,
+        "west": 37.8
+      }
+    },
+    {
+      "name": "ŞIRNAK",
+      "code": "73",
+      "lat": 37.5163889,
+      "lng": 42.4611111,
+      "bounds": {
+        "north": 37.8,
+        "south": 37.0,
+        "east": 43.0,
+        "west": 41.8
+      }
+    },
+    {
+      "name": "TEKİRDAĞ",
+      "code": "59",
+      "lat": 40.9833333,
+      "lng": 27.5166667,
+      "bounds": {
+        "north": 41.0,
+        "south": 40.8,
+        "east": 28.0,
+        "west": 26.6
+      }
+    },
+    {
+      "name": "TOKAT",
+      "code": "60",
+      "lat": 40.3166667,
+      "lng": 36.55,
+      "bounds": {
+        "north": 40.6,
+        "south": 39.8,
+        "east": 37.4,
+        "west": 35.4
+      }
+    },
+    {
+      "name": "TRABZON",
+      "code": "61",
+      "lat": 41.0,
+      "lng": 39.7333333,
+      "bounds": {
+        "north": 41.1,
+        "south": 40.4,
+        "east": 40.4,
+        "west": 38.6
+      }
+    },
+    {
+      "name": "TUNCELİ",
+      "code": "62",
+      "lat": 39.1079868,
+      "lng": 39.5401672,
+      "bounds": {
+        "north": 39.6,
+        "south": 39.0,
+        "east": 40.0,
+        "west": 39.1
+      }
+    },
+    {
+      "name": "UŞAK",
+      "code": "64",
+      "lat": 38.682301,
+      "lng": 29.40819,
+      "bounds": {
+        "north": 38.8,
+        "south": 38.4,
+        "east": 29.8,
+        "west": 28.9
+      }
+    },
+    {
+      "name": "VAN",
+      "code": "65",
+      "lat": 38.4941667,
+      "lng": 43.38,
+      "bounds": {
+        "north": 38.8,
+        "south": 38.0,
+        "east": 44.4,
+        "west": 42.4
+      }
+    },
+    {
+      "name": "YALOVA",
+      "code": "77",
+      "lat": 40.65,
+      "lng": 29.2666667,
+      "bounds": {
+        "north": 40.7,
+        "south": 40.6,
+        "east": 29.4,
+        "west": 29.1
+      }
+    },
+    {
+      "name": "YOZGAT",
+      "code": "66",
+      "lat": 39.82,
+      "lng": 34.8044444,
+      "bounds": {
+        "north": 40.2,
+        "south": 39.2,
+        "east": 35.8,
+        "west": 34.2
+      }
+    },
+    {
+      "name": "ZONGULDAK",
+      "code": "67",
+      "lat": 41.456409,
+      "lng": 31.798731,
+      "bounds": {
+        "north": 41.8,
+        "south": 41.2,
+        "east": 32.5,
+        "west": 31.6
+      }
+    }
+  ]
+}
