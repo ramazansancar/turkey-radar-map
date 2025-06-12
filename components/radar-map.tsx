@@ -55,7 +55,7 @@ const mapTypes = [
   {
     value: 'google',
     label: 'Google',
-    logo: '/google.svg',
+    logo: '/Google.svg',
     tileLayer: 'https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
     attribute: '&copy; <a href="https://www.google.com/maps">Google Maps</a> contributors',
     subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
