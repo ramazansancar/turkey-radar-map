@@ -53,15 +53,67 @@ const mapTypes = [
     maxZoom: 19,
   },
   {
-    value: 'google',
-    label: 'Google',
+    value: 'google-1',
+    label: 'Google 1',
     logo: '/Google.svg',
-    tileLayer: 'https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',
+    tileLayer: 'https://{s}.google.com/vt/lyrs=m,traffic&hl=tr&x={x}&y={y}&z={z}',
+    attribute: '&copy; <a href="https://www.google.com/maps">Google Maps</a> contributors',
+    subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+    maxZoom: 19,
+  },
+  {
+    value: 'google-2',
+    label: 'Google 2',
+    logo: '/Google.svg',
+    tileLayer: 'https://{s}.google.com/vt/lyrs=y,traffic&hl=tr&x={x}&y={y}&z={z}',
     attribute: '&copy; <a href="https://www.google.com/maps">Google Maps</a> contributors',
     subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
     maxZoom: 19,
   },
 ]
+
+/*
+// https://www.spatialmanager.com/traffic-and-transit-in-google-maps/
+// https://stackoverflow.com/a/33023651/15030183
+// https://socalgis.org/2019/11/06/add-google-maps-to-qgis-3/
+// https://hatarilabs.com/ih-en/how-to-add-a-google-map-in-qgis-3-tutorial
+The available Google Maps layers are:
+
+Roadmap
+http://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}
+
+Terrain
+http://mt0.google.com/vt/lyrs=p&hl=en&x={x}&y={y}&z={z}
+
+Altered roadmap
+http://mt0.google.com/vt/lyrs=r&hl=en&x={x}&y={y}&z={z}
+
+Satellite only
+http://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}
+
+Terrain only
+http://mt0.google.com/vt/lyrs=t&hl=en&x={x}&y={y}&z={z}
+
+Hybrid
+http://mt0.google.com/vt/lyrs=y&hl=en&x={x}&y={y}&z={z}
+
+---
+
+https://mt0.google.com/vt/lyrs=m@221097413,traffic&x=x&y=y&z=z
+
+Google Maps: https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}
+Google Satellite: http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}
+Google Satellite Hybrid: https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
+Google Terrain: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
+Google Roads: https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}
+--
+Google Haritalar : https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}
+Google Uydu:  http://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}
+Google Uydu Hibrit:  https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
+Google Arazi: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
+Google Yollar:  https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}
+
+*/
 
 const getTileLayer = (mapType: string) => {
   const type = mapTypes.find((type) => type.value === mapType)
